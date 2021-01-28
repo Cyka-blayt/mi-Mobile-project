@@ -1,0 +1,223 @@
+img.banner {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+.cart-header {
+    width: 100%;
+    height: 11.733333vw;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 100;
+    opacity: 0;
+}
+.cart-header div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.cart-header i {
+    position: absolute;
+    left: 4vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cart-header span {
+    font-size: 15px;
+    font-weight: 700;
+}
+.cart-header span.edit {
+    position: absolute;
+    right: 4.5vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 12px;
+    font-weight: 500;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+}
+.cart-content {
+    flex: 1;
+    overflow: auto;
+    width: 100%;
+    z-index: 10;
+}
+.cart-background {
+    width: 100%;
+    /* height: 23.466666vw; */
+    /* background: url('img/bg_page_header.png'); */
+    color: white;
+}
+.cart-background div {
+    width: 100%;
+    height: 23.466666vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cart-background span {
+    font-weight: 700;
+    font-size: 20px;
+}
+.cart-background i {
+    position: absolute;
+    left: 4vw;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.cart-background span.edit {
+    position: absolute;
+    right: 4.5vw;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    font-weight: 500;
+}
+.cart-goods {
+    /* width: 95%; */
+    margin: 0 10px;
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+.checked {
+    width: 16px;
+    height: 16px;
+}
+.cart-goods_title {
+    display: flex;
+    height: 14.4vw;
+    align-items: center;
+    border-bottom: 1px solid rgb(251, 244, 230);
+}
+.cart-goods_title span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.cart-goods_content {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+}
+.cart-goods_content .circle {
+    flex-shrink: 0;
+}
+.goods-img {
+    width: 22.933333vw;
+    margin-right: 2.666666vw;
+    flex-shrink: 0;
+}
+.goods-suggest {
+    align-self: flex-start;
+    flex: 1;
+}
+.goods-name {
+    font-size: 15px;
+}
+.goods-bottom {
+    margin-top: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.goods-price {
+    font-size: 14px;
+    color: rgb(191, 17, 17);
+}
+.goods-count .count {
+    background-color: rgb(244, 244, 244);
+    padding: 0 10px;
+    font-size: 14px;
+}
+.reduce-count, .add-count {
+    font-size: 19px;
+    padding: 0 5px;
+    color: black;
+}
+.reduce-count.stop, .add-count.stop {
+    color: rgb(190, 186, 186);
+}
+.cart-footer {
+    width: 100%;
+    height: 14.4vw;
+    flex-shrink: 0;
+    background-color: white;
+}
+.cart-footer .container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: none;
+}
+.left {
+    display: flex;
+    align-items: center;
+    flex-shrink: 0;
+}
+.left span {
+    margin-left: 5px;
+    font-size: 14px;
+}
+.cart-footer .container .priceAll {
+    flex: 1;
+    text-align: right;
+}
+.cart-footer .container .priceAll span {
+    font-weight: bold;
+    font-size: 14px;
+}
+.cart-footer .container .priceAll span.red {
+    color: rgb(206, 72, 72);
+    font-size: 16px;
+    font-weight: 600;
+}
+.cart-footer .container .settlement-btn {
+    width: 26.133333vw;
+    height: 10.133333vw;
+    line-height: 10.133333vw;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(220, 31, 23);
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.cart-footer .del-container {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+    display: none;
+    justify-content: space-between;
+}
+.cart-footer .del-container .left {
+    display: flex;
+    align-items: center;
+}
+.del-btn {
+    width: 26.133333vw;
+    height: 10.133333vw;
+    line-height: 10.133333vw;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(220, 31, 23);
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+.container.show, .del-container.show {
+    display: flex;
+    align-items: center;
+}

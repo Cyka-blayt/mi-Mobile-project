@@ -1,0 +1,136 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    width: 100%;
+    height: 12vw;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+.header .left {
+    width: 10.4vw;
+    height: 10.4vw;
+    flex-shrink: 0;
+}
+.title {
+    flex: 1;
+    text-align: center;
+}
+.header .right {
+    width: 4.266666vw;
+    height: 4.266666vw;
+    padding: 2.666666vw 3.466666vw 2.666666vw 2.666666vw;
+    flex-shrink: 0;
+}
+.nav {
+    width: 100%;
+    height: 10.666666vw;
+    flex-shrink: 0;
+}
+.nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+.nav ul li {
+    font-size: 13px;
+    padding: 2px 10px;
+    border-radius: 25px;
+    color: rgb(102, 102, 102);
+}
+.nav ul li.active {
+    background-color: rgb(224, 182, 88);
+    color: white;
+}
+.content {
+    flex: 1;
+    overflow: auto;
+}
+.container {
+    width: 95%;
+    margin: 10px auto;
+    background-color: white;
+    border-radius: 10px;
+}
+.mi-title {
+    height: 12vw;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mi-title .left {
+    display: flex;
+    align-items: center;
+}
+.mi-title .left span {
+    font-size: 14px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+.mi-title i {
+    width: 20px;
+    height: 20px;
+    color: rgb(255, 107, 0);
+    font-size: 20px;
+}
+.mi-title .right {
+    color: rgb(153, 153, 153);
+    font-size: 15px;
+}
+.goods-content {
+    display: flex;
+    padding: 0 10px;
+}
+.avatar {
+    width: 24vw;
+    height: 24vw;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+.goods-name {
+    flex: 1;
+    font-size: 15px;
+}
+.other {
+    flex-shrink: 0;
+    text-align: right;
+    font-size: 12px;
+    color: rgb(153, 153, 153);
+    margin-left: 10px;
+}
+.goods-count {
+    margin-top: 5px;
+}
+.all-information {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    font-size: 13px;
+}
+.order-footer {
+    margin-top: 10px;
+    padding: 0 10px;
+    height: 12.8vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.remove {
+    color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+.btn {
+    width: 20.266666vw;
+    height: 7.466666vw;
+    line-height: 7.466666vw;
+    text-align: center;
+    color: rgb(191, 17, 17);
+    border-radius: 25px;
+    border: 1px solid rgb(191, 17, 17);
+    font-size: 14px;
+}

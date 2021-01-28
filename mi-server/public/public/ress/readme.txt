@@ -1,0 +1,2 @@
+基于jQuery开发的省市区街道四级联动插件
+页面中只要有一个文本输入框class值给regions-picker即可

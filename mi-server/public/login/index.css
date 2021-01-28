@@ -1,0 +1,62 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background: url('img/banner.png') no-repeat center center;
+    background-size: cover;
+}
+.container {
+    width: 80%;
+    margin: 0 auto;
+    height: 100%;
+}
+.container p {
+    color: rgb(102, 102, 102);
+    font-size: 23px;
+    letter-spacing: 1px;
+    padding: 16vw 0 4vw 0;
+}
+.container>div>div, p {
+    text-align: center;
+}
+.container>div>div input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #979595;
+    outline: none;
+    background-color: rgb(255,255,255,0);
+    padding: 20px 0;
+    font-size: 14px;
+}
+.btn-login-phone, .btn-login-pwd {
+    width: 100%;
+    height: 12.533333vw;
+    margin: 6.4vw 0 3.733333vw;
+    background-color: rgb(213, 172, 113);
+    color: white;
+    border: none;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+.btn-toggle {
+    width: 100%;
+    height: 12.533333vw;
+    background-color: rgb(240, 240, 240);
+    color: rgb(102, 102, 102);
+    border: none;
+    border-radius: 28px;
+    font-size: 15px;
+    font-weight: 600;
+    outline: none;
+}
+.login-phone, .login-pwd {
+    display: none;
+}
+.login-phone.show, .login-pwd.show {
+    display: block;
+}
+.register {
+    margin-top: 8vw;
+    color: rgb(155, 155, 155);
+}

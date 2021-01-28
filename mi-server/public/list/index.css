@@ -1,0 +1,156 @@
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.list-header {
+    width: 100%;
+    height: 12vw;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+}
+.list-header i {
+    width: 8.533333vw;
+    height: 8.533333vw;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin: 0 8px 0 10px;
+    flex-shrink: 0;
+}
+.list-header i.icon-liebiao, i.icon-kuaizhuangshitu {
+    display: none;
+}
+.list-header i.icon-liebiao.show, i.icon-kuaizhuangshitu.show {
+    display: flex;
+    align-self: center;
+}
+.list-header input {
+    flex: 1;
+    height: 8.555555vw;
+    background-color: rgb(244, 244, 244);
+    border-radius: 28px;
+    border: none;
+    outline: none;
+    padding: 0 15px;
+}
+.list-screen {
+    width: 100%;
+    height: 11.2vw;
+    flex-shrink: 0;
+}
+.list-screen ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.list-screen li {
+    width: 25%;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+}
+.list-screen .dir {
+    color: rgb(180, 115, 31);
+}
+.list-screen .icon-shang, .icon-xia {
+    display: none;
+}
+.list-screen .icon-shang.show, .icon-xia.show {
+    display: inline-block;
+}
+.list-screen li.show {
+    color: rgb(180, 115, 31);
+}
+.empty {
+    display: none;
+}
+.list-content {
+    flex: 1;
+    width: 100%;
+    overflow: auto;
+    display: none;
+}
+.empty.show, .list-content.show {
+    display: block;
+}
+.list-show {
+    width: 100%;
+    display: none;
+}
+.shop-list {
+    width: 95%;
+    display: flex;
+    margin: 10px auto;
+}
+.shop-list .list-show_img {
+    width: 33.6vw;
+    flex-shrink: 0;
+}
+.shop-list .list-show_content {
+    flex: 1;
+    margin-left: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.shop-name {
+    height: 5.333333vw;
+    width: 100%;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    color: rgb(51, 51, 51);
+    font-size: 15px;
+}
+.shop-brief {
+    font-size: 11px;
+    color: grey;
+}
+.shop-price {
+    color: rgb(250, 79, 11);
+}
+.shop-sale, .shop-rate {
+    color: rgb(141, 141, 141);
+    font-size: 12px;
+}
+
+.block-show {
+    display: none;
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    
+}
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.shop-block {
+    width: 45.6vw;
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+.shop-block .block-show_img {
+    display: block;
+    width: 100%;
+}
+.shop-block>div {
+    width: 85%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+.shop-block .shop-price {
+    margin-top: 5px;
+}
+.shop-block .shop-sale {
+    margin-top: 5px;
+}
+.list-show.show, .block-show.show {
+    display: block;
+}
